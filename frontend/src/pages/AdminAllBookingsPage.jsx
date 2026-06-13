@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useBookings } from '../hooks/useBookings'
+import { useBookings } from '../hooks/useBookings.jsx'
 import BookingList from '../components/BookingList'
 import { Loader2, Shield } from 'lucide-react'
 

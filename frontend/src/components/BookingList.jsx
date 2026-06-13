@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { useBookings } from '../hooks/useBookings'
-import { useAuth } from '../hooks/useAuth'
+import { useBookings } from '../hooks/useBookings.jsx'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { 
   Calendar, 
   Clock, 
@@ -14,7 +14,7 @@ import {
   User,
   Shield
 } from 'lucide-react'
-import { hourToAmpm, dayIndexToName } from '../utils/timeParser'
+import { hourToAmpm, dayIndexToName } from '../utils/timeParser.jsx'
 
 export default function BookingList({ bookings, title, isAdminView = false, onRefresh }) {
   const { cancelBooking, loading } = useBookings()

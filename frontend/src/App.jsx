@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { useAuth } from './hooks/useAuth'
+import { useAuth } from './hooks/useAuth.jsx'
 import Header from './components/Header'
 import HomePage from './pages/HomePage'
 import SearchPage from './pages/SearchPage'

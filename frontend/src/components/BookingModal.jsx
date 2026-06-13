@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { useAuth } from '../hooks/useAuth'
-import { useBookings } from '../hooks/useBookings'
+import { useAuth } from '../hooks/useAuth.jsx'
+import { useBookings } from '../hooks/useBookings.jsx'
 import { X, BookOpen, CheckCircle, AlertCircle, Building2, MapPin, Clock, CalendarDays } from 'lucide-react'
-import { hourToAmpm } from '../utils/timeParser'
+import { hourToAmpm } from '../utils/timeParser.jsx'
 
 export default function BookingModal({ room, searchParams, onClose }) {
   const { isAuthenticated } = useAuth()

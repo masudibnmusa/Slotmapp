@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Building2, MapPin, CheckCircle, XCircle, BookOpen, Loader2 } from 'lucide-react'
-import { hourToAmpm } from '../utils/timeParser'
-import BookingModal from './BookingModal'
+import { hourToAmpm } from '../utils/timeParser.jsx'
+import BookingModal from './BookingModal.jsx'
 
 export default function SearchResults({ results, searchParams, loading }) {
   const [selectedRoom, setSelectedRoom] = useState(null)

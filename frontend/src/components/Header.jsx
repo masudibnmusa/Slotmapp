@@ -1,5 +1,5 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom'
-import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { Search, Calendar, LogOut, User, Shield, PlusCircle, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 

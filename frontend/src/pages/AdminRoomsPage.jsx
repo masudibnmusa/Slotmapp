@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { useBookings } from '../hooks/useBookings'
-import { useAuth } from '../hooks/useAuth'
+import { useBookings } from '../hooks/useBookings.jsx'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { PlusCircle, Building2, AlertCircle, CheckCircle, Loader2 } from 'lucide-react'
-import { validateRoomId, validateRoomType } from '../utils/timeParser'
+import { validateRoomId, validateRoomType } from '../utils/timeParser.jsx'
 
 export default function AdminRoomsPage() {
   const { addClassroom, loading } = useBookings()

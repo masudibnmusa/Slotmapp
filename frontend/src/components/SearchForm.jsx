@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Search, Building2, Clock, CalendarDays, Filter } from 'lucide-react'
-import { DAYS, parseAmpm } from '../utils/timeParser'
+import { DAYS, parseAmpm } from '../utils/timeParser.jsx'
 
 export default function SearchForm({ onSearch, loading }) {
   const [department, setDepartment] = useState('')

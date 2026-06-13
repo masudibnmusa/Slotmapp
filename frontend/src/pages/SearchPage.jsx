@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import SearchForm from '../components/SearchForm'
 import SearchResults from '../components/SearchResults'
-import { useBookings } from '../hooks/useBookings'
+import { useBookings } from '../hooks/useBookings.jsx'
 
 export default function SearchPage() {
   const { searchRooms, loading } = useBookings()
