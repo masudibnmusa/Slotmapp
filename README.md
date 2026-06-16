@@ -393,7 +393,7 @@ The web version adds:
 **Masud Ibn Musa**
 
 Originally developed in C and reimagined as a modern full-stack web application using React, FastAPI, and PostgreSQL.
-Orginal version : https://github.com/masudibnmusa/slotmap.git
+Orginal Console Based System repo link : https://github.com/masudibnmusa/slotmap.git
 
 ---
 
